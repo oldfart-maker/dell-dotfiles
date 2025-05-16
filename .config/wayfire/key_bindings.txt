@@ -1,0 +1,84 @@
+APPLICATIONS------------------------------------
+super + Return					Open terminal
+super + shift +					Return	Open fullscreen terminal
+super + F			     		Open file manager (thunar)
+super + E					Open text editor (emacs)
+super + W					Open web browser (vivaldi)
+
+MENU AND APPLETS--------------------------------
+super + D					Open application launcher
+super + R					Open command runner
+super + N					Open network manager applet
+super + M					Open music applet
+super + X					Open powermenu applet
+super + S					Open screenshots applet
+super + B					Open bluetooth applet
+
+HARDWARE KEYS-----------------------------------
+alt + Print					Take screenshot in 5 seconds delay
+shift + Print		     		     	Take screenshot in 10 seconds delay
+super + Print		     		      	Take screenshot of selected area
+XF86AudioRaiseVolume	     		   	Increase volume
+XF86AudioLowerVolume				Decrease volume
+XF86AudioMute					Toggle mute speakers
+XF86AudioMicMute				Toggle mute microphone
+XF86MonBrightnessUp				Increase display brightness
+XF86MonBrightnessDown				Decrease display brightness
+
+WORKSPACES--------------------------------------
+super						Expo : Show overview of all workspace
+super + 1..9					Switch to respective workspace
+super + shift + 1..9				Switch to respective workspace with focused window
+super + ctrl + 1..9	       	  	     	Move focused window to respective workspace
+super + ctrl + Left/Right/Up/Down		Switch to Left/Right/Top/Bottom workspace respectively
+super + ctrl + shift + Left/Right/Up/Down	Switches to workspace Left/Right/Top/Bottom with the focused window
+super + ctrl + alt + Left/Right/Up/Down		Send the focused window to the workspace Left/Right/Top/Bottom
+super + ctrl + L				Switches to last active workspace
+super + 1/2/3...				Switch to workspace set 1/2/3...
+super + shift 1/2/3,,,				Send the currently focused window to workspace set 1/2/3...
+ctrl + alt + Left/Right				Left/Right workspace (cube)
+super + O					Switch to next output
+super + shift + O				Switch to next output with focued window
+
+WINDOW MANAGEMENT-------------------------------
+super + C/Q					Kill active window
+super + V					Show all windows on current workspace
+super + shift + V				Show all windows from all workspaces
+alt + Tab					Task switcher
+super + Tab					Quick task switcher
+super + Left					Tile window to the left edge
+super + Right					Tile window to the right edge
+super + Up					Maximize window
+super + Down					Restore window's initial state
+super + H					Tile window to the top-left edge
+super + J					Tile window to the bottom-left edge
+super + K					Tile window to the top-right edge
+super + L					Tile window to the bottom-right edge
+super + Comma					Tile window to the bottom edge
+super + Dot					Tile window to the top edge
+
+WAYLAND COMPOSITOR------------------------------
+super + I					Invert output colors
+super + Z					Toggle idle
+super + T					Toggle tile mode
+super + ctrl + F				Toggle fisheye effect
+super + Space					Toggle fullscreen
+super + shift + T				Toggle Always on top
+super + shift + S				Toggle sticky mode
+super + shift + M				Toggle Maximize
+super + shift + D				Toggle Show desktop
+super + shift + B				Toggle Send to back
+super + alt + B					Toggle Blur
+
+MISC KEYS---------------------------------------
+ctrl + alt + L					Trigger lockscreen
+super + P					Run colorpicker
+
+MOUSE BINDINGS----------------------------------
+super + left					Move/Drag Window
+super + right					Resize Window
+super + scroll					Zoom the Desktop
+super + alt + scroll				Adjust Opacity
+super + ctrl + right				Rotate Window (2D)
+super + shift + right				Rotate Window (3D)
+ctrl + alt + left				Activate Cube

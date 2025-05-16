@@ -1,0 +1,78 @@
+/* 
+ * Copyright (C) 2020-2024 Aditya Shakya <adi1090x@gmail.com>
+*/
+
+/** ********** Colors ********** **/
+@define-color background     #181b23;
+@define-color background-alt #222732;
+@define-color foreground     #dddee0;
+@define-color selected       #A09A9C;
+@define-color black          #181b23;
+@define-color red            #847E81;
+@define-color green          #7B838B;
+@define-color yellow         #908F8F;
+@define-color blue           #A09A9C;
+@define-color magenta        #ADAEB1;
+@define-color cyan           #B8BDC6;
+@define-color white          #dddee0;
+
+/** ********** Fonts ********** **/
+* {
+    font-family: "JetBrains Mono", "Iosevka Nerd Font", archcraft, sans-serif;
+    font-size: 12px;
+}
+
+#window {
+	background-color: @background;
+	color: @foreground;
+	border: 0px solid @background-alt;
+	border-radius: 0px 0px 20px 0px;
+}
+
+#outer-box {
+	padding: 10px;
+}
+
+#input {
+	background-color: @background-alt;
+	border: 0px solid @blue;
+	padding: 4px 8px;
+}
+
+#scroll {
+	margin-top: 10px;
+}
+
+#inner-box {
+}
+
+#img {
+	padding-right: 8px;
+}
+
+#text {
+	color: @foreground;
+}
+
+#text:selected {
+	color: @background;
+}
+
+#entry {
+	padding: 4px;
+}
+
+#entry:selected {
+	background-color: @blue;
+	color: @background;
+}
+
+#unselected {
+}
+
+#selected {
+}
+
+#input, #entry:selected {
+	border-radius: 6px;
+}
