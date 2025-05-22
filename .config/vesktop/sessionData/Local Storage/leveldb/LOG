@@ -1,0 +1,6 @@
+2025/05/16-17:58:56.452 1acaf Reusing MANIFEST /home/username/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2025/05/16-17:58:56.464 1acaf Recovering log #3
+2025/05/16-17:58:56.464 1acaf Reusing old log /home/username/.config/vesktop/sessionData/Local Storage/leveldb/000003.log 
+2025/05/16-18:08:04.694 1acb0 Level-0 table #5: started
+2025/05/16-18:08:04.705 1acb0 Level-0 table #5: 27486 bytes OK
+2025/05/16-18:08:04.706 1acb0 Delete type=0 #3

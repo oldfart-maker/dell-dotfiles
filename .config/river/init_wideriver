@@ -75,6 +75,9 @@ riverctl map normal Super R spawn "$script_dir/rofi_asroot"
 # Super+S Screenshot
 riverctl map normal Super S spawn "$script_dir/rofi_screenshot"
 
+# Super+C Calculator
+riverctl map normal Super C spawn "$script_dir/rofi_calculator"
+
 # Super+Shift+F File Manager
 riverctl rule-add -app-id 'thunar' float
 riverctl rule-add -app-id 'thunar' position 720 400

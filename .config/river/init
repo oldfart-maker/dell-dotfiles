@@ -23,6 +23,7 @@ script_dir="~/.config/river/scripts"
 
 ## STARTUP APPS ##############################################################
 riverctl spawn "dbus-update-activation-environment DISPLAY WAYLAND_DISPLAY XDG_SESSION_TYPE XDG_CURRENT_DESKTOP"
+riverctl spawn "/usr/lib/xfce-polkit/xfce-polkit"
 riverctl spawn "swayidle -w timeout 1200 $script_dir/lockscreen"
 riverctl spawn "nm-applet --indicator"
 riverctl spawn "$script_dir/wallpaper"
@@ -75,6 +76,9 @@ riverctl map normal Super R spawn "$script_dir/rofi_asroot"
 # Super+S Screenshot
 riverctl map normal Super S spawn "$script_dir/rofi_screenshot"
 
+# Super+C Calculator
+riverctl map normal Super C spawn "$script_dir/rofi_calculator"
+
 # Super+Shift+F File Manager
 riverctl rule-add -app-id 'thunar' float
 riverctl rule-add -app-id 'thunar' position 720 400
@@ -108,10 +112,6 @@ riverctl map normal Super K focus-view previous
 # view in the layout stack
 riverctl map normal Super+Shift right swap next
 riverctl map normal Super+Shift left swap previous
-
-# Super+{J,K} to focus the next/previous output
-riverctl map normal Super K focus-output next
-riverctl map normal Super J focus-output previous
 
 # Super+Shift+{J,K} to send the focused view to the next/previous output
 riverctl map normal Super+Shift K send-to-output next

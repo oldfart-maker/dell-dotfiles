@@ -4,6 +4,6 @@
 ##
 ## Set Wallpaper in Wayfire
 
-WALLPAPER='/home/username/Pictures/wallpapers/manhattan.jpg'
+WALLPAPER='/home/username/Pictures/wallpapers/nord_naruto_2.png'
 
 swaybg --output '*' --mode fill --image "$WALLPAPER"

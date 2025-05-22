@@ -35,20 +35,20 @@ layer=overlay
 anchor=top-right
 
 # Mako_Colors
-background-color=#12171b
-text-color=#b8a5a8
-border-color=#1c242a
-progress-color=over #7F6567
+background-color=#101b23
+text-color=#e1bbaf
+border-color=#182935
+progress-color=over #BC6269
 
 [urgency=low]
-border-color=#1c242a
+border-color=#182935
 default-timeout=2000
 
 [urgency=normal]
-border-color=#1c242a
+border-color=#182935
 default-timeout=5000
 
 [urgency=high]
-border-color=#704955
-text-color=#704955
+border-color=#9D5760
+text-color=#9D5760
 default-timeout=0
